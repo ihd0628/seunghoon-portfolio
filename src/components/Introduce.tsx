@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Introduce() {
-  return <div>sign</div>;
+  return <div>Introduce</div>;
 }
 
 export default Introduce;

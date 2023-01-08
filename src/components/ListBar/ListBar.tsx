@@ -1,5 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { AiFillGithub } from '@react-icons/all-files/ai/AiFillGithub';
+import { FaBlog } from '@react-icons/all-files/fa/FaBlog';
+import { SiNotion } from '@react-icons/all-files/si/SiNotion';
+import { FiMail } from '@react-icons/all-files/fi/FiMail';
 
 function ListBar() {
   return (
@@ -12,10 +16,18 @@ function ListBar() {
         <li>Education</li>
       </ListContainer>
       <ContactContainer>
-        <li>깃헙</li>
-        <li>블로그</li>
-        <li>노션</li>
-        <li>메일</li>
+        <Icon>
+          <AiFillGithub size={23} />
+        </Icon>
+        <Icon>
+          <FaBlog size={23} />
+        </Icon>
+        <Icon>
+          <SiNotion size={23} />
+        </Icon>
+        <Icon>
+          <FiMail size={23} />
+        </Icon>
       </ContactContainer>
     </Body>
   );
@@ -38,9 +50,13 @@ const ListContainer = styled.ul`
 `;
 
 const ContactContainer = styled.ul`
-  ${(props) => props.theme.variables.flex('row', 'space-around', '')}
+  ${(props) => props.theme.variables.flex('row', 'space-between', '')}
   margin-bottom: 40px;
-  width: 50%;
+  width: 70%;
+`;
+
+const Icon = styled.li`
+  margin: 0 15px;
 `;
 
 // const DetailContainer = styled.div`

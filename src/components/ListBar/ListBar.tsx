@@ -23,7 +23,7 @@ function ListBar() {
 
 const Body = styled.div`
   ${(props) => props.theme.variables.flex('column', 'space-between', 'center')}
-  position: absolute;
+  position: fixed;
   width: 30%;
   height: 100%;
   color: white;

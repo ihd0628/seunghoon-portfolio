@@ -23,7 +23,7 @@ function App() {
 }
 
 const MainContainer = styled.div`
-  padding-left: 30%;
+  padding-left: ${(props) => props.theme.variables.leftRatio};
 `;
 
 export default App;

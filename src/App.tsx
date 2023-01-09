@@ -1,11 +1,11 @@
 import React from 'react';
-import Education from 'components/Education/Education';
-import Introduce from 'components/Introduce/Introduce';
-import OtherExperiences from 'components/OtherExperiences/OtherExperiences';
-import Experiences from 'components/Experiences/Experiences';
-import ListBar from 'components/ListBar/ListBar';
+import Education from 'Components/Education/Education';
+import Introduce from 'Components/Introduce/Introduce';
+import OtherExperiences from 'Components/OtherExperiences/OtherExperiences';
+import Experiences from 'Components/Experiences/Experiences';
+import ListBar from 'Components/ListBar/ListBar';
 import styled from 'styled-components';
-import Projects from './components/Projects/Projects';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (

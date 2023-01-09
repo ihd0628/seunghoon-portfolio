@@ -33,10 +33,11 @@ const IntroduceContainer = styled.section`
   &::before {
     content: '';
     background-image: url(${backGround});
+    margin-left: ${(props) => props.theme.variables.leftRatio};
     background-size: cover;
     z-index: -1;
     opacity: 0.45;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;

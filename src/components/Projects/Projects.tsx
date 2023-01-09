@@ -1,7 +1,7 @@
 import Categoryhead from 'Components/Common/Categoryhead';
 import React from 'react';
 import styled from 'styled-components';
-import ProjectDescription from './Components/ProjectDescription';
+import ProjectDescription from './Components/ProjectDescription/ProjectDescription';
 
 function Projects() {
   return (

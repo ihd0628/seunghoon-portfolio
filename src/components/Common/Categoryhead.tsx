@@ -10,7 +10,11 @@ function Categoryhead({ headMessage }: PropsTypes) {
 }
 
 const Head = styled.h1`
-  font-size: 50px;
+  margin-bottom: 60px;
+  font-size: 100px;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-position: under;
 `;
 
 export default Categoryhead;

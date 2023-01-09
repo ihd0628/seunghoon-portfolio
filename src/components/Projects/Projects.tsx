@@ -1,11 +1,13 @@
 import Categoryhead from 'Components/Common/Categoryhead';
 import React from 'react';
 import styled from 'styled-components';
+import ProjectDescription from './Components/ProjectDescription';
 
 function Projects() {
   return (
     <ProcjectsContainer>
       <Categoryhead headMessage="Projects" />
+      <ProjectDescription />
     </ProcjectsContainer>
   );
 }
